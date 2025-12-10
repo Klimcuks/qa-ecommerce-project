@@ -8,9 +8,9 @@
 
 | # | Test case                              | Status | Screenshot                                      |
 |---|----------------------------------------|--------|-------------------------------------------------|
-| 1 | Successful login                       | PASS   |                                                 |
-| 2 | Add to basket – specific product       | PASS   |                                                 |
-| 3 | Category → sort by price: low to high  | PASS   |                                                 |
+| 1 | Successful login                       | PASS   | ![login-success](assets/login-success.png) |
+| 2 | Add to basket – specific product       | PASS   | ![add-to-basket](assets/add-to-basket-SUCCESS.png)                                      |
+| 3 | Category → sort by price: low to high  | PASS   | ![sort-low-to-high](assets/)                                                |
 
 ## Project origin & initiative
 This project began as a manual-only take-home QA task from a mid-sized e-commerce company during a job interview.  
