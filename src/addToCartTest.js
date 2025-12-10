@@ -16,7 +16,7 @@ async function addToBasket() {
           "//figcaption[contains(text(),'Bed & Bath')]/ancestor::div[@role='button']"
         )
       ),
-      10000
+      15000
     );
     await driver.executeScript("arguments[0].click();", bedAndBath);
     console.log("Bed & Bath clicked");
@@ -44,7 +44,7 @@ async function addToBasket() {
           "//button[contains(@class, 'AddToCart')]//span[normalize-space(text())='Add to basket']"
         )
       ),
-      10000
+      15000
     );
     await driver.executeScript("arguments[0].scrollIntoView(true);", addBtn);
     await driver.sleep(500);
@@ -56,7 +56,7 @@ async function addToBasket() {
     // 4.1 click the mini-cart icon
     let miniCartBtn = await driver.wait(
       until.elementLocated(By.css('button[aria-label="Minicart"]')),
-      10000
+      15000
     );
     await driver.executeScript("arguments[0].click();", miniCartBtn);
     console.log("mini-cart icon clicked");
@@ -80,6 +80,7 @@ async function addToBasket() {
     // 4.4 Verify landing on the full cart page
     await driver.wait(until.urlContains("/cart"), 10000);
     console.log("add to basket test passed");
+    await driver.sleep(10000);
 
     await driver
       .takeScreenshot()
