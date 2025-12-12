@@ -6,11 +6,11 @@
 
 ## Automated test cases
 
-| # | Test case                              | Status | Screenshot                                      |
-|---|----------------------------------------|--------|-------------------------------------------------|
-| 1 | Successful login                       | PASS   | ![login-success](src/assets/login-success.png) |
-| 2 | Add to basket – specific product       | PASS   | ![add-to-basket](src/assets/add-to-basket-SUCCESS.png)                                      |
-| 3 | Category → sort by price: low to high  | PASS   | ![sort-low-to-high](src/assets/sort-low-to-high-SUCCESS.png)                                                |
+| # | Test case                              | Status | Screenshot
+|---|----------------------------------------|--------|-------------------------------------------------------------
+| 1 | Successful login                       | PASS   | ![login-success](src/assets/login-success.png)
+| 2 | Add to basket – specific product       | PASS   | ![add-to-basket](src/assets/add-to-basket-SUCCESS.png)
+| 3 | Category → sort by price: low to high  | PASS   | ![sort-low-to-high](src/assets/sort-low-to-high-SUCCESS.png)
 
 ## Project origin & initiative
 This project began as a manual-only take-home QA task from a mid-sized e-commerce company during a job interview.  
@@ -32,7 +32,7 @@ I decided to go further and built a Selenium automation suite — turning a simp
 ## How to run
 ```bash
 git clone https://github.com/Klimcuks/qa-ecommerce-project.git
-cd qa-portfolio-ecommerce-task
+cd qa-ecommerce-project
 npm install selenium-webdriver chromedriver
 node loginTest.js
 node addToCartTest.js
