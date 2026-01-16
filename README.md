@@ -15,7 +15,7 @@
 ## Project origin & initiative
 This project began as a manual-only take-home QA task from a mid-sized e-commerce company during a job interview.  
 The original requirement was to find and report bugs manually.  
-I decided to go further and built a Selenium automation suite — turning a simple manual assignment into three reliable, automated tests that work on a deliberately broken, unfinished site.
+I decided to go further and built a Selenium automation suite to turn a simple manual assignment into three reliable, automated tests that work on a deliberately broken, unfinished site.
 
 ## Challenges overcome
 - React mega-menus with dynamic rendering
