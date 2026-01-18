@@ -23,7 +23,30 @@ I completed a manual test suite on the core flows, then extended it with Seleniu
 - 6 bugs identified and tracked
 
 **Screenshots & evidence**
+1. **Test cycles overview** – all cycles completed with clear naming  
+   ![test cycles](src/assets/manual-cycles.png)
 
+2. **Execution summary** – overall metrics dashboard  
+   ![summary donuts](src/assets/manual-summary.png)
+
+3. **Test cases repository** – organised by feature  
+   ![test cases list](src/assets/manual-testcases.png)
+
+4. **Execution details** – example of a passed login test (happy path)  
+   ![login test part 1](src/assets/manual-login-1.png)  
+   ![login test part 2](src/assets/manual-login-2.png)
+
+5. **Regression cycle** – re-testing of previously failed / high-priority cases  
+   ![regression cycle](src/assets/manual-regression.png)
+
+6. **Coverage breakdown** – individual test case results  
+   ![coverage chart](src/assets/manual-coverage.png)
+
+7. **Bug discovery timeline**  
+   ![bug timeline](src/assets/manual-bugs-timeline.png)
+
+8. **Jira Kanban board** – full defect lifecycle  
+   ![kanban board](src/assets/manual-kanban.png)
 
 
 All findings were documented with clear steps, expected vs actual results, environment details, and screenshots.
